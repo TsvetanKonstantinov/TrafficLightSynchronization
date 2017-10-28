@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="mapModule">
+  <head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" href="\TrafficLightSynchronization\styles\map.css">
+     <script
+       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDE3mEQayqG7vF8T9wyTnkuFpiwUYXjmt4&callback=initMap">
+     </script>
+
+     <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+
+     <script src = "\TrafficLightSynchronization\scripts\module1.js"></script>
+
+    <title>Traffic Light Synchronization</title>
+  </head>
+  <body >
+
+    <div ng-controller="getMap" id = "map">
+      {{map}}
+    </div>
+
+
+  </body>
+</html>
